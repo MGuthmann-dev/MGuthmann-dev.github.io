@@ -1,3 +1,8 @@
+
+/*  */
+    /* All Page */
+/*  */
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -6,132 +11,142 @@ body, html {
     height: 100vh;
     background-color: #203647;
     color: #eefbfb;
-    }
+}
 
 a:link, a:visited, a:hover, a:active {
     text-decoration: none; 
     color: #eefbfb;
 }
 
+/*  */
+    /* Responsive Layout */
+/*  */
+
 /* Default */
 @media screen and (min-width:769px) {
     .container {
         margin: 10vw;
-        }
+    }
 
-            .container > h1 {
-                text-align: center;
-                font-size: 5em;
-                margin-bottom: 5vw;
-            }
+    .container > h1 {
+        text-align: center;
+        font-size: 5em;
+        margin-bottom: 5vw;
+    }   
         
-            .container > section {
-                text-align: justify;
-            }
+    .container > section {
+        text-align: justify;
+    }
 
-        .contact {  
-            height: 20vh;
-            margin-bottom: 3em;
-        }
+    .contact {  
+        height: 20vh;
+        margin-bottom: 3em;
+    }
 
-            .contact > h1 {
-                text-align: center;
-                font-size: 3em;
-                margin-top: 5vw;
-                margin-bottom: 5vw;
-            }
+    .contact > h1 {
+        text-align: center;
+        font-size: 3em;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
 
-            .contact > section {
-                display: flex;
-                font-size: 75px;
-                flex-wrap: wrap;
-                justify-content: space-evenly;
+    .contact > section {
+        display: flex;
+        font-size: 75px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
-            }
-
-            footer {
-                height: 2em;
-                border-top: 1px solid #eefbfb;
-                margin-top: 3px;
-                padding: 2em;
-                text-align: center;
-              }    
-        }
+    footer {
+        height: 2em;
+        border-top: 1px solid #eefbfb;
+        margin-top: 3px;
+        padding: 2em;
+        text-align: center;
+    }    
+}
 
 /* Medium Screen */
 @media screen and (max-width:768px) {
+    
+    .container  {
+        margin: 3em;
+    }
 
-        .container > h1 {
-            text-align: center;
-            font-size: 3em;
-        }
+    .container > h1 {
+        text-align: center;
+        font-size: 3em;
+    }
 
-        .contact {  
-            height: 20vh;
-            margin-bottom: 3em;
-        }
+    .contact {  
+        height: 20vh;
+        margin-bottom: 3em;
+    }
 
-            .contact > h1 {
-                text-align: center;
-                font-size: 3em;
-                margin-top: 5vh;
-                margin-bottom: 5vh;
-            }
+    .contact > h1 {
+        text-align: center;
+        font-size: 3em;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
 
-            .contact > section {
-                display: flex;
-                font-size: 75px;
-                flex-wrap: wrap;
-                justify-content: center;
-
-            }
-        }
+    .contact > section {
+        display: flex;
+        font-size: 75px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
 /* Small Screen */
 @media screen and (max-width:640px) {
 
-            .container > h1 {
-                font-size: 2em;
-            }
+    .container {
+        margin: 2em;
+        text-align: justify ;
+    }
 
-        .contact {  
-            height: 15vh;
-            margin-bottom: 3em;
-        }
+    .container > h1 {
+        font-size: 2em;   
+    }
 
-            .contact > h1 {
-                text-align: center;
-                font-size: 1.5em;
-                margin-top: 5vh;
-                margin-bottom: 5vh;
-            }
+    .contact {  
+        height: 15vh;
+        margin-bottom: 3em;
+    }
 
-            .contact > section {
-                display: flex;
-                font-size: 50px;
-                flex-wrap: wrap;
-                justify-content: space-evenly;
+    .contact > h1 {
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
 
-            }
+    .contact > section {
+        display: flex;
+        font-size: 50px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
-            footer {
-                border-top: 1px solid #eefbfb;
-                margin-top: 3px;
-                padding: 1em;
-                text-align: center;
-              }    
-        }
-
+    footer {
+        border-top: 1px solid #eefbfb;
+        margin-top: 3px;
+        padding: 1em;
+        text-align: center;
+    }      
+}
 
 /*  */
 /* Responsive Navigation Bar */
 /*  */
+
 .nav {
     overflow: hidden;
     background-color: #203647;
 }
 
-  .nav a {
+.nav a {
     float: left;
     display: block;
     color: #eefbfb;
@@ -139,50 +154,53 @@ a:link, a:visited, a:hover, a:active {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
 
-  .nav a:hover {
+.nav a:hover {
     background-color: #007cc7;
     color: #eefbfb;
-  }
-  
-  .nav a.active {
+}
+
+.nav a.active {
     background-color: #12232e;
     color: #eefbfb;
     text-transform: uppercase;
-  }
+}
 
-  .nav .icon {
-      display: none;
-  }
+.nav .icon {
+    display: none;
+}
 
-  @media screen and (max-width: 640px) {
-    .nav a:not(:first-child) {display: none;}
+@media screen and (max-width: 640px) {
+    .nav a:not(:first-child) {
+        display: none;
+    }
     .nav a.icon {
       float: right;
       display: block;
-  }
-
-  @media screen and (max-width: 640px) {
-    .nav.responsive {position: relative;}
-    .nav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
     }
-    .nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-
 }
 
+@media screen and (max-width: 640px) {
+    .nav.responsive {
+        position: relative;
+    }
+    .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+}
 
 /*  */
     /* Parallax images*/
 /*  */
+
 .parallax1 {
     background-image: url("https://github.com/MGuthmann-dev/MGuthmann-dev.github.io/blob/main/MitchellGuthmann_T1A1/src/imgs/20190507_174342.jpg?raw=true");
     height: 90vh; 
