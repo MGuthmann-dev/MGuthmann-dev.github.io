@@ -184,7 +184,7 @@ a:link, a:visited, a:hover, a:active {
     /* Parallax images*/
 /*  */
 .parallax1 {
-    background-image: url("MitchellGuthmann_T1A1\src\imgs\20190507_174342.jpg");
+    background-image: url("https://github.com/MGuthmann-dev/MGuthmann-dev.github.io/blob/main/MitchellGuthmann_T1A1/src/imgs/20190507_174342.jpg?raw=true");
     height: 90vh; 
     background-attachment: fixed;
     background-position: center;
