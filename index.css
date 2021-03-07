@@ -18,6 +18,14 @@ a:link, a:visited, a:hover, a:active {
     color: #eefbfb;
 }
 
+footer {
+    height: 2em;
+    border-top: 1px solid #eefbfb;
+    margin-top: 3px;
+    padding: 2em;
+    text-align: center;
+}    
+
 /*  */
     /* Responsive Layout */
 /*  */
@@ -25,16 +33,24 @@ a:link, a:visited, a:hover, a:active {
 /* Default */
 @media screen and (min-width:769px) {
     .container {
-        margin: 10vw;
+        margin-top: 3vw;
+        margin-bottom: 10vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 
     .container > h1 {
         text-align: center;
-        font-size: 5em;
-        margin-bottom: 5vw;
+        font-size: 3em;
     }   
-        
+
+    .container > h2 {
+        text-align: center;
+        font-size: 2em;
+    }   
+
     .container > section {
+        margin-top: 15vh;
         text-align: justify;
     }
 
@@ -57,25 +73,31 @@ a:link, a:visited, a:hover, a:active {
         justify-content: space-evenly;
     }
 
-    footer {
-        height: 2em;
-        border-top: 1px solid #eefbfb;
-        margin-top: 3px;
-        padding: 2em;
-        text-align: center;
-    }    
 }
 
 /* Medium Screen */
 @media screen and (max-width:768px) {
     
     .container  {
-        margin: 3em;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 
     .container > h1 {
         text-align: center;
         font-size: 3em;
+    }
+
+    .container > h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .container > section {
+        margin-top: 10vh;
+        text-align: justify;
     }
 
     .contact {  
@@ -94,7 +116,7 @@ a:link, a:visited, a:hover, a:active {
         display: flex;
         font-size: 75px;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content:space-evenly;
     }
 }
 
@@ -102,12 +124,24 @@ a:link, a:visited, a:hover, a:active {
 @media screen and (max-width:640px) {
 
     .container {
-        margin: 2em;
-        text-align: justify ;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 
     .container > h1 {
         font-size: 2em;   
+    }
+
+    .container > h2 {
+        text-align: center;
+        font-size: 1.3em;
+    }   
+
+    .container > section {
+        margin-top: 7vh;
+        text-align: justify;
     }
 
     .contact {  
@@ -203,7 +237,7 @@ a:link, a:visited, a:hover, a:active {
 
 .parallax1 {
     background-image: url("https://github.com/MGuthmann-dev/MGuthmann-dev.github.io/blob/main/MitchellGuthmann_T1A1/src/imgs/20190507_174342.jpg?raw=true");
-    height: 90vh; 
+    height: 70vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
