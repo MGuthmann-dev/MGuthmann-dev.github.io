@@ -131,6 +131,9 @@ a:link, a:visited, a:hover, a:active {
 .nav {
     overflow: hidden;
     background-color: #203647;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav a {
