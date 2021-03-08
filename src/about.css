@@ -44,14 +44,18 @@ footer {
         font-size: 3em;
     }   
 
-    .about > h2 {
-        text-align: center;
-        font-size: 2em;
-    }   
-
     .about > section {
-        margin-top: 6vh;
+        display: flex;
+        margin-top: 2vh;
+        align-items: center;
         text-align: justify;
+    }
+
+    .about > section > img {
+        max-width: 20vw;
+        max-height: auto;
+        border-radius: 50%;
+        padding: 2em;
     }
 
     .hobby {
@@ -112,12 +116,22 @@ footer {
         text-align: center;
         font-size: 2em;
     }
-
+    
     .about > section {
+        display: flex   ;
         margin-top: 6vh;
+        flex-wrap: wrap;
         text-align: justify;
+        justify-content: center;
+        align-items: center;
     }
 
+    .about > section > img {
+        max-width: 40vw;
+        max-height: auto;
+        border-radius: 50%;
+    }
+    
     .hobby {
         margin-top: 6vw;
         margin-bottom: 6vw;
@@ -170,8 +184,17 @@ footer {
     }
 
     .about > section {
-        margin-top: 5vh;
+        margin-top: 3vh;
         text-align: justify;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about > section > img {
+        max-width: 50vw;
+        max-height: auto;
+        border-radius: 50%;
     }
 
     .hobby {
