@@ -32,27 +32,45 @@ footer {
 
 /* Default */
 @media screen and (min-width:769px) {
-    .container {
+    .about {
         margin-top: 3vw;
-        margin-bottom: 10vw;
+        margin-bottom: 5vw;
         margin-left: 10vw;
         margin-right: 10vw;
     }
 
-    .container > h1 {
+    .about > h1 {
         text-align: center;
         font-size: 3em;
     }   
 
-    .container > h2 {
+    .about > h2 {
         text-align: center;
         font-size: 2em;
     }   
 
-    .container > section {
-        margin-top: 15vh;
+    .about > section {
+        margin-top: 6vh;
         text-align: justify;
     }
+
+    .hobby {
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .hobby > h2 {
+        text-align: left;
+        font-size: 3em;
+    }   
+
+    .hobby > section {
+        margin-top: 6vh;
+        text-align: justify;
+    }
+
 
     .contact {  
         height: 20vh;
@@ -78,25 +96,42 @@ footer {
 /* Medium Screen */
 @media screen and (max-width:768px) {
     
-    .container  {
-        margin-top: 10vw;
-        margin-bottom: 10vw;
+    .about  {
+        margin-top: 6vw;
+        margin-bottom: 6vw;
         margin-left: 10vw;
         margin-right: 10vw;
     }
 
-    .container > h1 {
+    .about > h1 {
         text-align: center;
         font-size: 3em;
     }
 
-    .container > h2 {
+    .about > h2 {
         text-align: center;
         font-size: 2em;
     }
 
-    .container > section {
-        margin-top: 10vh;
+    .about > section {
+        margin-top: 6vh;
+        text-align: justify;
+    }
+
+    .hobby {
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .hobby > h2 {
+        text-align: left;
+        font-size: 3em;
+    }   
+
+    .hobby > section {
+        margin-top: 6vh;
         text-align: justify;
     }
 
@@ -123,24 +158,36 @@ footer {
 /* Small Screen */
 @media screen and (max-width:640px) {
 
-    .container {
+    .about {
         margin-top: 10vw;
         margin-bottom: 10vw;
         margin-left: 10vw;
         margin-right: 10vw;
     }
 
-    .container > h1 {
+    .about > h1 {
         font-size: 2em;   
     }
 
-    .container > h2 {
-        text-align: center;
-        font-size: 1.3em;
+    .about > section {
+        margin-top: 5vh;
+        text-align: justify;
+    }
+
+    .hobby {
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .hobby > h2 {
+        text-align: left;
+        font-size: 2em;
     }   
 
-    .container > section {
-        margin-top: 7vh;
+    .hobby > section {
+        margin-top: 6vh;
         text-align: justify;
     }
 
@@ -205,32 +252,30 @@ footer {
     display: none;
 }
 
-.nav a:not(:first-child) {
-    display: none;
-}
-.nav a.icon {
-  float: right;
-  display: block;
-}
-
-.nav.responsive {
-    position: relative;
-}
-.nav.responsive .icon {
-position: absolute;
-right: 0;
-top: 0;
-}
-.nav.responsive a {
-float: none;
-display: block;
-text-align: left;
+@media screen and (max-width: 640px) {
+    .nav a:not(:first-child) {
+        display: none;
+    }
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 640px) {
-}
-
-@media screen and (max-width: 640px) {
+    .nav.responsive {
+        position: relative;
+    }
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
 
 /*  */
@@ -239,7 +284,7 @@ text-align: left;
 
 .parallax1 {
     background-image: url("https://images.unsplash.com/photo-1511512578047-dfb367046420?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
-    height: 70vh; 
+    height: 80vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -248,7 +293,7 @@ text-align: left;
 
 .parallax2 {
     background-image: url("https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80");
-    height: 70vh; 
+    height: 50vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
