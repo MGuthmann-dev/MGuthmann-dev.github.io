@@ -172,7 +172,7 @@ a:link, a:visited, a:hover, a:active {
 
 @media screen and (max-width: 768px) {
     .nav.responsive {
-        position: relative;
+        position: fixed;
     }
     .nav.responsive .icon {
     position: absolute;

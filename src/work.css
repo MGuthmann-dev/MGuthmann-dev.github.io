@@ -18,58 +18,66 @@ a:link, a:visited, a:hover, a:active {
     color: #eefbfb;
 }
 
+/* Download Button */
+.btn {
+    background-color: #007cc7;
+    color: #eefbfb;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 1em;
+    font-size: 1em;
+  }
+  
+  .btn:hover {
+    background-color: #4da8da;
+  }
+
 /*  */
     /* Responsive Layout */
 /*  */
 
 /* Desktop Screens */
 @media screen and (min-width:769px) {
-    .about {
-        margin-top: 3vw;
-        margin-bottom: 5vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
-    }
-
     h1 {
         text-align: center;
         font-size: 3em;
     }   
 
-    .about > section {
+    .exp {
         display: flex;
-        margin-top: 2vh;
-        align-items: center;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .exp > section {
+        margin: 2vh;
         text-align: justify;
     }
 
-    .about > section > img {
-        max-width: 20vw;
-        max-height: auto;
-        border-radius: 50%;
-        padding: 2em;
-    }
-
-    .hobby {
+    .proj {
         margin: 3vw;
     }
 
-    .hobby > section {
+    .proj > section {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 6vh;
     }
 
-    .hobby > section > div {
-        width: 300px;
+    .proj > section > div {
+        width: 30vw;
         margin: 3vw;
         text-align: justify;
     }
 
-    .hobby > section > div > img {
-        max-width: 300px;
-        max-height: auto;
+    .proj > section > div > img {
+        object-fit: cover;
+        width: 30vw;
+        height: 5em;
         }
 
     .contact {  
@@ -101,7 +109,7 @@ a:link, a:visited, a:hover, a:active {
 /* Mobile Screens */
 @media screen and (max-width:768px) {
     
-    .about, .hobby  {
+    .exp, .proj  {
         margin-top: 6vw;
         margin-bottom: 6vw;
         margin-left: 10vw;
@@ -112,29 +120,30 @@ a:link, a:visited, a:hover, a:active {
         text-align: center;
         font-size: 3em;
     }
-    
-    .about > section {
-        display: flex   ;
-        margin-top: 6vh;
+
+    .exp > section {
+        display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         text-align: justify;
         justify-content: center;
         align-items: center;
     }
 
-    .about > section > img {
-        max-width: 40vw;
-        max-height: auto;
-        border-radius: 50%;
+    .exp > section > h3 {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: -2vw;
     }
-    
-    .hobby > section {
+
+    .proj > section {
         text-align: justify;
     }
 
-    .hobby > section > div > img {
-        max-width: 80vw;
-        max-height: auto;
+    .proj > section > div > img {
+        object-fit: cover;
+        height: 5em;
+        width: 80vw;
         margin-top: 6vw;
     }
     
@@ -232,8 +241,8 @@ a:link, a:visited, a:hover, a:active {
     /* Parallax images*/
 /*  */
 
-.parallax1 {
-    background-image: url("https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1057&q=80");
+.parallax_landing {
+    background-image: url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1780&q=80");
     height: 80vh; 
     background-attachment: fixed;
     background-position: center;
@@ -242,7 +251,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .parallax2 {
-    background-image: url("https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80");
+    background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
     height: 50vh; 
     background-attachment: fixed;
     background-position: center;
