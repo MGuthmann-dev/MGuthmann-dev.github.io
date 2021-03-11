@@ -18,221 +18,128 @@ a:link, a:visited, a:hover, a:active {
     color: #eefbfb;
 }
 
+/* Footer */
+.contact {  
+    height: 20vh;
+    margin: 1%;
+}
+
+.contact > h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contact > p {
+    margin-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+} 
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 5em;
+    }
+
+.links > a {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
 /*  */
     /* Responsive Layout */
 /*  */
 
-/* Desktop Screens */
+/* Mobile Screens */
+.about, .hobby  {
+    margin: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about > div {
+    display: flex   ;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypic {
+    max-width: 50%;
+    max-height: auto;
+    border-radius: 50%;
+}
+
+.hobby > section {
+    text-align: justify;
+}
+
+.postpic {
+    max-width: 80vw;
+    max-height: auto;
+    margin-top: 6vw;
+}
+    
+
+    /* Desktop Screens */
 @media screen and (min-width:769px) {
-    .about {
-        margin-top: 3vw;
-        margin-bottom: 5vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
+   
+    .about, .hobby{
+        margin: 5%;
     }
 
     h1 {
-        text-align: center;
         font-size: 3em;
     }   
 
-    .about > section {
-        display: flex;
-        margin-top: 2vh;
-        align-items: center;
+    .about > div {
         text-align: justify;
     }
 
-    .about > section > img {
-        max-width: 20vw;
-        max-height: auto;
-        border-radius: 50%;
-        padding: 2em;
+    .about > div > p {
+        width: 50%;
     }
 
-    .hobby {
-        margin: 3vw;
+    .mypic {
+        max-width: 20%;
+        max-height: auto;
+        margin-right: 10%;
     }
 
     .hobby > section {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 6vh;
     }
 
-    .hobby > section > div {
-        width: 300px;
-        margin: 3vw;
+    .post {
+        width: 30%;
+        min-width: 300px;
         text-align: justify;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
-    .hobby > section > div > img {
-        max-width: 300px;
+    .postpic {
+        max-width: 27vw;
+        min-width: 300px;
         max-height: auto;
         }
-
-    .contact {  
-        height: 20vh;
-    }
-
-    .contact > h2 {
-        text-align: center;
-        font-size: 3em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
-    
-    .contact > .links {
-        display: flex;
-        font-size: 5em;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        }
-    
-    .copy {
-        padding-top: 2em;
-        padding-bottom: 1em;
-        text-align: center;
-    } 
-
-}
-
-/* Mobile Screens */
-@media screen and (max-width:768px) {
-    
-    .about, .hobby  {
-        margin-top: 6vw;
-        margin-bottom: 6vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 3em;
-    }
-    
-    .about > section {
-        display: flex   ;
-        margin-top: 6vh;
-        flex-wrap: wrap;
-        text-align: justify;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .about > section > img {
-        max-width: 40vw;
-        max-height: auto;
-        border-radius: 50%;
-    }
-    
-    .hobby > section {
-        text-align: justify;
-    }
-
-    .hobby > section > div > img {
-        max-width: 80vw;
-        max-height: auto;
-        margin-top: 6vw;
-    }
-    
-    .contact {  
-        height: 20vh;
-        margin: 1em;
-    }
-
-    .contact > h2 {
-        text-align: center;
-        font-size: 2em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
-
-    .contact > .links {
-        display: flex;
-        font-size: 5em;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        }
-
-    .copy {
-        padding-top: 3em;
-        padding-bottom: 1em;
-        text-align: center;
-    } 
-    
-}
-
-/*  */
-/* Responsive Navigation Bar */
-/*  */
-
-.nav {
-    overflow: hidden;
-    background-color: #203647;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.nav a {
-    float: left;
-    display: block;
-    color: #eefbfb;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.nav a:hover {
-    background-color: #007cc7;
-    color: #eefbfb;
-}
-
-.nav a.active {
-    background-color: #12232e;
-    color: #eefbfb;
-    text-transform: uppercase;
-}
-
-.nav .icon {
-    display: none;
-}
-
-@media screen and (max-width: 768px) {
-    .nav a:not(:first-child) {
-        display: none;
-    }
-    .nav a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .nav.responsive {
-        position: fixed;
-    }
-    .nav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .nav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
 }
 
 /*  */
     /* Parallax images*/
 /*  */
 
-.parallax1 {
+.parallax_landing {
     background-image: url("https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1057&q=80");
     height: 80vh; 
     background-attachment: fixed;
@@ -241,19 +148,18 @@ a:link, a:visited, a:hover, a:active {
     background-size: cover;
 }
 
-.parallax2 {
-    background-image: url("https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80");
-    height: 50vh; 
+.parallax_contact {
+    background-image: url("https://images.unsplash.com/photo-1474403078171-7f199e9d1335?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80");
+    min-height: 70vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+}  
 
-
-.parallax3 {
-    background-image: url("https://images.unsplash.com/photo-1474403078171-7f199e9d1335?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80");
-    min-height: 60vh; 
+.parallax1 {
+    background-image: url("https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80");
+    height: 50vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
