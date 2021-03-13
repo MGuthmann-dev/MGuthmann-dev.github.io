@@ -22,6 +22,7 @@
       rel="stylesheet"
       href="src/normailze.css"
       integrity="sha384-elJThDDgWA6PNsdnS57zXyg4Vpsr/2yNaioz++jPUYgMxd9QZoqH8Lb2v7MT5BM6"
+      crossorigin="anonymous"
     />
 
     <!--Link to my .css file -->
@@ -29,6 +30,7 @@
       rel="stylesheet"
       href="src/index.css"
       integrity="sha384-MEfbyDrzIpdNQIguCP/r9BgAt1CgO05RZP39aAl2G5uLQtFpu9P2fNzUseWCLEOK"
+      crossorigin="anonymous"
     />
 
     <!-- Link to Responsive Navigation Bar -->
@@ -36,6 +38,7 @@
       rel="stylesheet"
       href="src/nav.css"
       integrity="sha384-x5rsGqN3VHsssTTQMB9hNd7Hgs9RRGz/qwVshTNzdHHRpU2823l3RwF8OoLl8ZFj"
+      crossorigin="anonymous"
     />
 
     <!-- JS for Responsive Navigation Bar -->
@@ -45,7 +48,7 @@
         if (x.className === "nav") {
           x.className += " responsive";
         } else {
-          x.className = "nav";
+          ~~x.className = "nav";
         }
       }
     </script>
