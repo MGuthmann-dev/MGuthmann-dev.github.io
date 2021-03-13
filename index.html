@@ -1,78 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Link or buttons -->
-        <script src="https://kit.fontawesome.com/3f65d86a17.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3f65d86a17.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- link for Google Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap" >  
-   
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap"
+    />
+
     <!-- link for normalise.css file -->
-        <link rel="stylesheet" href="src/normailze.css">
-    
+    <link rel="stylesheet" href="src/normailze.css" />
+
     <!--Link to my .css file -->
-        <link rel="stylesheet" href="src/index.css">
- 
-        <!-- Link to Responsive Navigation Bar -->
+    <link rel="stylesheet" href="src/index.css" />
+
+    <!-- Link to Responsive Navigation Bar -->
     <link rel="stylesheet" href="src/nav.css" />
 
     <!-- JS for Responsive Navigation Bar -->
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "nav") {
-                x.className += " responsive";
-                } else {
-                x.className = "nav";
-                }
-            }
-        </script>
-        
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
+    </script>
+
     <title>Home | Mitchell Guthmann</title>
-
-</head>
-<body>
-    
+  </head>
+  <body>
     <div class="nav" id="myTopnav">
-        <nav>
-            <a class="active" href="index.html">Mitchell Guthmann</a>
-            <a href="src/about.html">About</a>
-            <a href="src/blog.html">Blog</a>
-            <a href="src/work.html">Work</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-        </nav>
+      <nav>
+        <a class="active" href="index.html">Mitchell Guthmann</a>
+        <a href="src/about.html">About</a>
+        <a href="src/blog.html">Blog</a>
+        <a href="src/work.html">Work</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          ><i class="fa fa-bars"></i
+        ></a>
+      </nav>
     </div>
-    
-    <div class="parallax_landing" title="A Photo of me standing infront of a plant wall with neon lights" ></div>
 
-        <section class="container">
-            <div class="intro">
-            <h1>Mitchell Guthmann</h1>
-            <h2><em>Student | Full Stack Developer</em></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur voluptatum magni nesciunt reprehenderit consequuntur porro fugiat, quo aspernatur dicta sed qui velit inventore maiores, obcaecati cumque a amet recusandae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur voluptatum magni nesciunt reprehenderit consequuntur porro fugiat, quo aspernatur dicta sed qui velit inventore maiores, obcaecati cumque a amet recusandae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur voluptatum magni nesciunt reprehenderit consequuntur porro fugiat, quo aspernatur dicta sed qui velit inventore maiores, obcaecati cumque a amet recusandae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur voluptatum magni nesciunt reprehenderit consequuntur porro fugiat, quo aspernatur dicta sed qui velit inventore maiores, obcaecati cumque a amet recusandae.
-                </p>
-            </div>
-        </section>
+    <div
+      class="parallax_landing"
+      title="A Photo of me standing infront of a plant wall with neon lights"
+    ></div>
 
-    <div class="parallax_contact" title="A man working at a table with a laptop, 2 phones and a cup of coffee"></div>
+    <section class="container">
+      <div class="intro">
+        <h1>Mitchell Guthmann</h1>
+        <h2><em>Student | Full Stack Developer</em></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          pariatur voluptatum magni nesciunt reprehenderit consequuntur porro
+          fugiat, quo aspernatur dicta sed qui velit inventore maiores,
+          obcaecati cumque a amet recusandae. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Laborum pariatur voluptatum magni
+          nesciunt reprehenderit consequuntur porro fugiat, quo aspernatur dicta
+          sed qui velit inventore maiores, obcaecati cumque a amet recusandae.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          pariatur voluptatum magni nesciunt reprehenderit consequuntur porro
+          fugiat, quo aspernatur dicta sed qui velit inventore maiores,
+          obcaecati cumque a amet recusandae. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Laborum pariatur voluptatum magni
+          nesciunt reprehenderit consequuntur porro fugiat, quo aspernatur dicta
+          sed qui velit inventore maiores, obcaecati cumque a amet recusandae.
+        </p>
+      </div>
+    </section>
+
+    <div
+      class="parallax_contact"
+      title="A man working at a table with a laptop, 2 phones and a cup of coffee"
+    ></div>
 
     <footer>
-        <section class="contact">
-            <h2>Want to get in contact?</h2>
-            <section class="links">
-                <a href="https://www.linkedin.com/in/mitchellguthmann"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/MGuthmann-dev"><i class="fab fa-github-square"></i></a>
-            </section>
-            <p>Copyrite &copy; 2021 | Mitchell Guthmann</p>
+      <section class="contact">
+        <h2>Want to get in contact?</h2>
+        <section class="links">
+          <a href="https://www.linkedin.com/in/mitchellguthmann"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/MGuthmann-dev"
+            ><i class="fab fa-github-square"></i
+          ></a>
         </section>
+        <p>Copyrite &copy; 2021 | Mitchell Guthmann</p>
+      </section>
     </footer>
-</body>
-    
+  </body>
 </html>

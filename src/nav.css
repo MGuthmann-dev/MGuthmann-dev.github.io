@@ -3,60 +3,60 @@
 /*  */
 
 .nav {
-    overflow: hidden;
-    background-color: #203647;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  overflow: hidden;
+  background-color: #203647;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav a {
-    float: left;
-    display: block;
-    color: #eefbfb;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #eefbfb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .nav a:hover {
-    background-color: #007cc7;
-    color: #eefbfb;
+  background-color: #007cc7;
+  color: #eefbfb;
 }
 
 .nav a.active {
-    background-color: #12232e;
-    color: #eefbfb;
-    text-transform: uppercase;
+  background-color: #12232e;
+  color: #eefbfb;
+  text-transform: uppercase;
 }
 
 .nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav a:not(:first-child) {
     display: none;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .nav a:not(:first-child) {
-        display: none;
-    }
-    .nav a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .nav.responsive {
-        position: fixed;
-    }
-    .nav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .nav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
+  .nav.responsive {
+    position: fixed;
+  }
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
