@@ -77,7 +77,6 @@ h1 {
 
 .mypic {
   max-width: 50%;
-  max-height: auto;
   border-radius: 50%;
 }
 
@@ -87,7 +86,6 @@ h1 {
 
 .postpic {
   max-width: 80vw;
-  max-height: auto;
   margin-top: 6vw;
 }
 
@@ -112,7 +110,6 @@ h1 {
 
   .mypic {
     max-width: 20%;
-    max-height: auto;
     margin-right: 10%;
   }
 
@@ -133,7 +130,6 @@ h1 {
   .postpic {
     max-width: 27vw;
     min-width: 300px;
-    max-height: auto;
   }
 }
 
@@ -143,7 +139,7 @@ h1 {
 
 .parallax_landing {
   background-image: url("https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1057&q=80");
-  height: 80vh;
+  height: 80%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -152,7 +148,7 @@ h1 {
 
 .parallax_contact {
   background-image: url("https://images.unsplash.com/photo-1474403078171-7f199e9d1335?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80");
-  min-height: 70vh;
+  min-height: 70%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -161,7 +157,7 @@ h1 {
 
 .parallax1 {
   background-image: url("https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80");
-  height: 50vh;
+  height: 60%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

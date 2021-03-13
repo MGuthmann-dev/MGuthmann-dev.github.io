@@ -86,6 +86,7 @@ a:active {
 
   .intro > h1 {
     font-size: 3rem;
+    margin-top: -2.5%;
   }
 
   .intro > h2 {
@@ -103,7 +104,7 @@ a:active {
 
 .parallax_landing {
   background-image: url("https://github.com/MGuthmann-dev/MGuthmann-dev.github.io/blob/main/src/images/20190507_174342.jpg?raw=true");
-  height: 70%;
+  height: 80%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
