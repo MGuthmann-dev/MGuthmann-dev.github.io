@@ -1,0 +1,263 @@
+commit c0b088d9e11b7153b04087cf2981a3f3f5c35ee0
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 04:33:36 2021 +1100
+
+    removed SRI again, test did not resolve issue
+
+commit 8528b056e8ddd2c93794ca449ac01e81aad2c6b4
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 04:18:04 2021 +1100
+
+    test SRI again on index.html
+
+commit ce061c1aa0fc9baf1f71e466d68071220ad1ecd2
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:59:42 2021 +1100
+
+    remeoved all SRI from about, blog, and work.html
+
+commit d19b9be60b12e24d867d130bf4ac3cf02f666fba
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:56:36 2021 +1100
+
+    removed all sri fron index.html for debugging
+
+commit 9bdedb71d9c54c7f6606594df77be45b7933463c
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:54:42 2021 +1100
+
+    removed SRI from stylesheets
+
+commit 029a1012d8f3b74cd0ff614abf15b2e57341274f
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:51:36 2021 +1100
+
+    removed sri for testing
+
+commit 07c2855fd4f5bc5fce2542ea006f9428e4495adf
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:48:54 2021 +1100
+
+    added sri to other stylesheets
+
+commit c5a5288feca795e165d797b4f73177f068ae0631
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:45:48 2021 +1100
+
+    reverted last changes
+
+commit 3060f28fcb84fa8ebdf7b6b3a7e06b461a3709b6
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:42:37 2021 +1100
+
+    test hosted sri
+
+commit d72c6c991e25ac89b8e3d5e93c41f78123140b56
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:37:02 2021 +1100
+
+    debuggin-changes to index sri
+
+commit c66bad41f103481b4388a67562e4f7b2a6e5db93
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:27:19 2021 +1100
+
+    typo on class=active
+
+commit b9eae07d036060c9b74d7e737ffa378493f05d02
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:20:32 2021 +1100
+
+    revert last change
+
+commit f2d05d63c908ca13760490a0850d4d2846e3e32c
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 03:14:34 2021 +1100
+
+    debugging sri issue
+
+commit 438a26f64f9bbca7d5da85e3b5752a2af08af1d1
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 02:40:32 2021 +1100
+
+    add crossorign to index.html
+
+commit 0eae673442ee72a082d7deddf9269f667369a583
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 02:39:47 2021 +1100
+
+    add crossorigin to index.html
+
+commit f8ecc68a5f8b6f3356b658f0d7bfb4b7d3004ec9
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 02:04:09 2021 +1100
+
+    updated tags on work.css
+
+commit 017793ff5aef0a086b3eaccf9b78a229abd8ef8d
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 01:29:11 2021 +1100
+
+    SRI added
+
+commit 0de6d1ded27b33f5295ac2812cdfe86ad69962c9
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sun Mar 14 00:53:49 2021 +1100
+
+    ran files through vaidation
+
+commit 39f56d48b75ec9c85c98f639cbd989677bb97080
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Sat Mar 13 23:26:39 2021 +1100
+
+    formatted all files
+
+commit a1032e70b58fae28acdf7644366cb9aa63676e88
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Fri Mar 12 02:58:52 2021 +1100
+
+    wording changes
+
+commit d84ad4388f2d16a183f775c070c5b6a0153cbf3a
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Fri Mar 12 02:41:36 2021 +1100
+
+    moved nav to nav.css, cleaned code
+
+commit 7e026298982bcdc90328c97cc613ed60c67b32d7
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Thu Mar 11 13:30:10 2021 +1100
+
+    fixed stylesheet links
+
+commit 0f9e5a981ad9b1337d1a0c33d1254780f8182381
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Thu Mar 11 13:27:22 2021 +1100
+
+    added work.html/.css
+
+commit edd64570b9ee772e0541fa85c3e87eba3e759db1
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Wed Mar 10 09:34:15 2021 +1100
+
+    updated from Resume to Nav
+
+commit 571652ecb10c6617963317840283b4ecafabc94e
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Tue Mar 9 20:27:47 2021 +1100
+
+    added wireframe images
+
+commit cdecbebd36f117046afadfbfa587c6963e713e02
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 20:43:49 2021 +1100
+
+    fixed boarder issue with index page
+
+commit 548cd40d39251992edd18e10d3c431111ec29b78
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 20:26:33 2021 +1100
+
+    added blog.html/.css files
+
+commit 9214a196ddf0c0c5c7cf87eb8d01f90bb49ca8f9
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 17:39:49 2021 +1100
+
+    finished about page, update index pages
+
+commit 6673a0177298e08b6ff8414d96c3d4e33ff9239d
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 13:18:05 2021 +1100
+
+    added img to about files
+
+commit c0ecb4556b5f06c7f6603d92122ede98eb584c00
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 12:13:38 2021 +1100
+
+    updates to about.css/html
+
+commit b3199b3d93950dd018aaf0bbed5705a43a18ffc9
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 11:23:28 2021 +1100
+
+    updated links for previous changes
+
+commit 81462c92237bd9652acfd98bd85426366f867221
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 11:14:20 2021 +1100
+
+    Removed files not rel. to project, moved src files
+
+commit d5179cf2fb85e15f9ec748898cfcb702de82710e
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 11:07:35 2021 +1100
+
+    created about.css/.html, removed other works
+
+commit b5bc00898f034f593a91edef0203ba2ab9035d9d
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Mon Mar 8 10:12:26 2021 +1100
+
+    updated index.css
+
+commit bd4a0f33beb61dcbc884ecf88e143145add12c92
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Fri Mar 5 02:03:59 2021 +1100
+
+    cleaned up code in index files
+
+commit e1fb10bad3160115a513367fb3bbb40f49a017e9
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Thu Mar 4 22:41:28 2021 +1100
+
+    fixed image link on index.css
+
+commit 166e6360a3f6ccb28c55a7a8f3e6125009c718be
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Thu Mar 4 20:16:54 2021 +1100
+
+    fixed link on index.css
+
+commit 6d62f11cfe63c793722bd8f00863101bb8386b88
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Thu Mar 4 19:26:59 2021 +1100
+
+    moved T1A1 to root, removed T1 folder
+
+commit 67a0598f93e547abbea2187d932104be51b217b5
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Thu Mar 4 19:18:57 2021 +1100
+
+    relovate files out of T1 folder
+
+commit 3d4416044d639069ecdb4116e89c757985996103
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Thu Mar 4 19:02:58 2021 +1100
+
+    updated index.html and index.css
+
+commit 0bc8383862ad39cb5016635f0c6c0e996480face
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Thu Mar 4 09:41:22 2021 +1100
+
+    add index.css
+
+commit 466f3a2d237420cc34c0f550c1f6742833be1341
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Wed Mar 3 22:03:08 2021 +1100
+
+    add index.html, add normalize.css
+
+commit e21838d5f33cc1c30d7362672f45c8a075ea47b7
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Wed Mar 3 17:02:21 2021 +1100
+
+    move index.html to main root
+
+commit e82ecccce4307075ee7aac67c58bceedfd97a35f
+Author: MGuthmann-dev <79577106+MGuthmann-dev@users.noreply.github.com>
+Date:   Tue Mar 2 18:24:18 2021 +1100
+
+    initial commit
