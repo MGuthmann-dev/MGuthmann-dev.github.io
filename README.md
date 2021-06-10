@@ -1,6 +1,6 @@
 # My Portfolio Project - T1A2
 
-[Website](https://mguthmann-dev.github.io/) | [Source Code](https://github.com/MGuthmann-dev/MGuthmann-dev.github.io)
+[Website](https://mitchguthmann.github.io/) | [Source Code](https://github.com/MGuthmann-dev/MGuthmann-dev.github.io)
 
 # Purpose
 
